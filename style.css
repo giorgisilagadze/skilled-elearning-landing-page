@@ -1,0 +1,436 @@
+* {
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 343px;
+    margin-top: 22px;
+}
+
+.skills {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #13183F;
+}
+
+.g-started {
+    display: flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    background-color: #13183F;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div {
+    margin: auto;
+    width: 343px;
+    display: flex;
+    margin-top: 38px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.max-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h-max {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #13183F;
+    line-height: 50px;
+}
+
+.p-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #83869A;
+    margin-top: 26px;
+    line-height: 26px;
+}
+
+.g-button {
+    display: flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    width: 167px;
+    height: 56px;
+    border-radius: 31px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.prop-main-div {
+    margin: auto;
+    width: 343px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.check-div {
+    display: flex;
+    width: 340px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+}
+
+.check-h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    padding: 24px 28px 32px;
+}
+
+
+.prop-divs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+}
+
+.prop-divs-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+}
+
+.prop-divs-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+}
+
+.icon {
+    margin-top: -24px;
+    margin-left: 28px;
+}
+
+.anim {
+    margin-top: 56px;
+    margin-left: -56px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #13183F;
+}
+
+.anim-text {
+    margin-top: 16px;
+    margin-left: 28px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #83869A;
+    line-height: 26px;
+}
+
+.butt {
+    margin-top: 24px;
+    margin-left: 28px;
+    margin-bottom: 32px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #F74780;    
+}
+
+.foot {
+    background-color: #13183F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 16px;
+    width: 100%; 
+    margin: auto;
+}
+
+.skills-1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #13183F;
+}
+
+.g-started-1 {
+    display: flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-desk {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .header {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    .main-div {
+        margin-left: 39px;
+        width: 398px;
+        display: flex;
+        margin-top: 110px;
+        flex-wrap: wrap;   
+    }
+
+    body {
+        background-image: url("./assets/image-hero-tablet.webp");
+        background-repeat: no-repeat;
+        background-position: top -120px right -330px;
+        background-size: 735px;    
+    }
+
+    .prop-main-div {
+        margin: auto;
+        width: 80%;
+        min-width: 690px;
+        display: flex;   
+        margin-top: 201px;
+        margin-bottom: 86px;
+    }
+
+    .prop-divs {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 56px;
+        width: 340px;
+        border-radius: 10px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    }
+
+    .check-div {
+        display: flex;
+        width: 340px;
+        margin-top: 24px;
+        height: 259px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 10px;
+    }
+
+    .prop-divs-1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        width: 340px;
+        border-radius: 10px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    }
+
+    .check-h2 {
+        padding: 56px 21px 139px 32px;
+    }
+
+    .foot {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .skills-1 {
+        margin-left: 40px;
+    }
+
+    .g-started-1 {
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1340px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 100vw;
+        margin-top: 24px;
+        z-index: 99;
+    }
+
+    body {
+        background-image: none;
+    }
+    
+    .skills {
+        font-size: 36px;
+        margin-left: 165px;
+    }
+
+    .g-started {
+        width: 167px;
+        height: 56px;
+        font-size: 18px;
+        margin-right: 165px;
+    }
+
+    .hero-desk {
+        display: block;
+        width: 950px;
+        height: 900px;
+        margin-right: -300px;
+        margin-top: -375px;
+    }
+
+    .main-div {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        margin-top: 38px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 172px;
+    }
+
+    .max-div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 457px;
+        height: 360px;
+        margin-left: 165px;
+        
+    }
+
+    .h-max {
+        font-size: 56px;
+        line-height: 70.56px;
+    }
+
+    .p-text {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #83869A;
+        margin-top: 28px;
+        line-height: 28px;
+    }
+
+    .prop-main-div {
+        margin: auto;
+        width: 80%;
+        max-width: 1400px;
+        display: flex;   
+        margin-top: 100px;
+        margin-bottom: 140px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .prop-divs {
+        margin-top: 80px;
+        
+    }
+
+    .prop-divs-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        width: 340px;
+        border-radius: 10px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    }
+
+    .check-h2 {
+        padding: 64px 32px 138px;
+        font-size: 32px;
+        line-height: 40px;
+        
+    }
+
+    .check-div {
+        height: 322px;
+    }
+
+    .prop-divs {
+        height: 322px;
+    }
+
+    .foot {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0px;
+    }
+
+    .skills-1 {
+        margin-left: 165px;
+        font-size: 36px;
+    }
+
+    .g-started-1 {
+        margin-right: 165px;
+        width: 167px;
+        height: 56px;
+        font-size: 18px;
+    }
+
+    .g-started:hover {
+        background-color: #666CA3;
+    }
+
+    .g-button:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .g-started-1:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        cursor: pointer;
+    }
+}
